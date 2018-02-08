@@ -20,19 +20,19 @@ public class ShapeCalculatorTest {
         System.out.printf("Length of the line is: %f\n", l);
 
         // calculate circle area
-        double ca = Calc2D.circleArea(circle);
+        double ca = calculator.circleArea(circle);
         System.out.printf("Area of the circle is: %f\n", ca);
 
         // calculate area of rectangle
-        double ra = Calc2D.rectangleArea(rectangle);
+        double ra = calculator.rectangleArea(rectangle);
         System.out.printf("Area of rectangle is: %f\n", ra);
 
         // calculate ball volume
-        double bv = Calc3D.ballVolume(ball);
+        double bv = calculator.ballVolume(ball);
         System.out.printf("Volume of the ball is: %f\n", bv);
 
         // calculate cube volume
-        double cv = Calc3D.cubeVolume(cube);
+        double cv = calculator.cubeVolume(cube);
         System.out.printf("Volume of the cube is: %f\n", cv);
     }
 }
